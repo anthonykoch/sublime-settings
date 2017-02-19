@@ -1,0 +1,10 @@
+{
+	"match_basename": true,
+	"scroll_to_error": true,
+	"show_icon_at_error": true,
+	"show_status_in_view": true,
+	"error_status_format": "[{plugin_name} error, Line {line}, File: {file_name}]",
+	"error_popup_format": "{message}",
+	"error_icon": "bookmark",
+	"dev": false
+}

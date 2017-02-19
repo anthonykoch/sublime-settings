@@ -1,0 +1,26 @@
+{
+	"color_scheme": "Packages/Predawn/predawn.tmTheme",
+	"folder_exclude_patterns":
+	[
+		".git",
+		"node_modules"
+	],
+	"font_size": 10,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"index_files": false,
+	"line_padding_bottom": 1.5,
+	"line_padding_top": 1.5,
+	"margin": 15,
+	"material_theme_disable_folder_animation": true,
+	"predawn_findreplace_small": true,
+	"predawn_quick_panel_small": true,
+	"predawn_tabs_medium": true,
+	"show_errors_inline": false,
+	"theme": "predawn-DEV.sublime-theme",
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}

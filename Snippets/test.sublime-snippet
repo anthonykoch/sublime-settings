@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+test('$1', t => {
+	const actual = $2;
+	const expected = $3;
+	$0
+	t.equals(actual, expected);
+	t.end();
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>test</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js, source.embedded.html.js</scope>
+</snippet>

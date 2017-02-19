@@ -1,0 +1,34 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"Babel",
+		"Case Conversion",
+		"ChannelRepositoryTools",
+		"Color Scheme - Creamy",
+		"ColorSchemeSelector",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"Frontend Light Color Scheme",
+		"Handlebars",
+		"HTML-CSS-JS Prettify",
+		"Jade",
+		"Laravel Blade Highlighter",
+		"Markdown Extended",
+		"Monokai Extended",
+		"Package Control",
+		"PackageDev",
+		"PackageResourceViewer",
+		"Predawn",
+		"Pug",
+		"Ruby Slim",
+		"Sass",
+		"SideBarEnhancements",
+		"Tomorrow Color Schemes"
+	]
+}

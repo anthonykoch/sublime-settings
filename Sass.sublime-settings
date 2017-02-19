@@ -1,0 +1,13 @@
+{
+	// "color_scheme": "Packages/Frontend Light Color Scheme/Coffee Flavor.tmTheme",
+	// "color_scheme": "Packages/Material Theme/schemes/Material-Theme-OceanicNext.tmTheme",
+	// "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	// "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker-OceanicNext.tmTheme",
+	// "color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Eighties.tmTheme",
+	"extensions":
+	[
+		"sass"
+	],
+	"tab_size": 2,
+	"atomic_save": true
+}

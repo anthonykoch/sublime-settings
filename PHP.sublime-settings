@@ -1,0 +1,9 @@
+{
+	"extensions":
+	[
+		"php"
+	],
+    "translate_tabs_to_spaces": true,
+	"line_padding_bottom": 4,
+	"line_padding_top": 4
+}

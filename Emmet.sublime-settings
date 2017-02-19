@@ -1,0 +1,4 @@
+{
+	"insert_final_tabstop": false,
+	"disable_tab_abbreviations_for_scopes": "css,less,sass,scss,stylus"
+}
