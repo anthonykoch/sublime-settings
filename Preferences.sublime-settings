@@ -1,17 +1,37 @@
 {
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": ".",
+			"selector": "source.js"
+		}
+	],
+	"caret_extra_top": 2,
+	"caret_extra_width": 0,
 	"color_scheme": "Packages/Predawn/predawn.tmTheme",
+	"default_line_ending": "unix",
+	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
 		".git",
-		"node_modules"
+		"node_modules",
+		"venv"
 	],
 	"font_size": 10,
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"Ruby Slim",
+		"SublimeLinter Inline Errors",
+		"Tern",
+		"tern_for_sublime",
+		"TernJS",
 		"Vintage"
 	],
-	"index_files": false,
 	"line_padding_bottom": 1.5,
 	"line_padding_top": 1.5,
 	"margin": 15,
@@ -19,9 +39,11 @@
 	"predawn_findreplace_small": true,
 	"predawn_quick_panel_small": true,
 	"predawn_tabs_medium": true,
+	"show_definitions": false,
 	"show_errors_inline": false,
+	"tab_size": 4,
 	"theme": "predawn-DEV.sublime-theme",
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true,
-	"ensure_newline_at_eof_on_save": true,
+	"word_wrap": true
 }

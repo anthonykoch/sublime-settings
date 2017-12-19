@@ -10,7 +10,7 @@
 		"Case Conversion",
 		"ChannelRepositoryTools",
 		"Color Scheme - Creamy",
-		"ColorSchemeSelector",
+		"Diffy",
 		"DocBlockr",
 		"EditorConfig",
 		"Emmet",
@@ -18,6 +18,7 @@
 		"Handlebars",
 		"HTML-CSS-JS Prettify",
 		"Jade",
+		"JsPrettier",
 		"Laravel Blade Highlighter",
 		"Markdown Extended",
 		"Monokai Extended",
@@ -28,7 +29,15 @@
 		"Pug",
 		"Ruby Slim",
 		"Sass",
+		"SCSS",
 		"SideBarEnhancements",
-		"Tomorrow Color Schemes"
+		"Stylus",
+		"SublimeLinter",
+		"SublimeLinter Inline Errors",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-sass-lint",
+		"TernJS",
+		"Tomorrow Color Schemes",
+		"Vue Syntax Highlight"
 	]
 }

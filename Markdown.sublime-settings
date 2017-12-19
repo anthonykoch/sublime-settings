@@ -4,5 +4,5 @@
     "draw_indent_guides": false,
     "trim_trailing_white_space_on_save": true,
     "word_wrap": true,
-    "wrap_width": 80  // Sets the # of characters per line
+    "wrap_width": 150  // Sets the # of characters per line
 }

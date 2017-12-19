@@ -1,10 +1,7 @@
 <snippet>
 	<content><![CDATA[
 test('$1', t => {
-	const actual = $2;
-	const expected = $3;
-	$0
-	t.equals(actual, expected);
+	t.equals($2, $3);
 	t.end();
 });
 ]]></content>
