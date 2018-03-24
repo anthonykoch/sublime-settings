@@ -1,0 +1,37 @@
+[
+  { "keys": ["ctrl+k", "ctrl+s"], "command": "convert_to_snake" },
+  { "keys": ["ctrl+k", "ctrl+e"], "command": "convert_to_dash" },
+  { "keys": ["ctrl+k", "ctrl+c"], "command": "convert_to_camel" },
+
+  { "keys": ["ctrl+alt+2"], "command": "run_macro_file",
+     "args": {"file": "res://Packages/User/Macros/set_soft_tabs_2.sublime-macro" }
+  },
+
+  { "keys": ["ctrl+shift+d"], "command": "select_lines", "args": {"forward": true} },
+  { "keys": ["ctrl+shift+r"], "command": "select_lines", "args": {"forward": false} },
+
+  { "keys": ["ctrl+shift+x"], "command": "c_rename" },
+  { "keys": ["ctrl+shift+e"], "command": "c_duplicate" },
+  { "keys": ["ctrl+shift+c"], "command": "side_bar_new_file2" },
+  // {
+  //   "keys": ["tab"], "command": "expand_abbreviation_by_tab", "context":
+  //   [
+  //     { "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" },
+  //     { "match_all": true, "key": "selection_empty" },
+  //     { "operator": "equal", "operand": false, "match_all": true, "key": "has_next_field" },
+  //     { "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
+  //     { "match_all": true, "key": "is_abbreviation" }
+  //   ]
+  // },
+  { "keys": ["ctrl+shift+q"], "command": "tern_describe" },
+
+  { "keys": ["tab"], "command": "expand_abbreviation_by_tab", "context":
+    [
+        { "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" },
+        { "match_all": true, "key": "selection_empty" },
+        { "operator": "equal", "operand": false, "match_all": true, "key": "has_next_field" },
+        { "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
+        { "match_all": true, "key": "is_abbreviation" }
+    ]
+  }
+]
