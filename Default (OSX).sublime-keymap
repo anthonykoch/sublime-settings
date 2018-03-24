@@ -1,0 +1,119 @@
+[
+    { "keys": ["super+shift+r"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["super+shift+d"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["super+shift+d"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["super+t"], "command": "transpose" },
+    {
+        "keys": [
+            "alt+down"
+        ],
+        "args": {
+            "action": "decrement_number_by_1"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.decrement_number_by_1"
+            }
+        ]
+    },
+    {
+        "keys": [
+            "alt+up"
+        ],
+        "args": {
+            "action": "increment_number_by_1"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.increment_number_by_1"
+            }
+        ]
+    },
+    {
+        "keys": [
+            "super+,"
+        ],
+        "args": {
+            "action": "balance_outward"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.balance_outward"
+            }
+        ]
+    },
+
+    {
+        "keys": [
+            "super+shift+g"
+        ],
+        "command": "wrap_as_you_type",
+        "context": [
+            {
+                "operand": false,
+                "operator": "equal",
+                "match_all": true,
+                "key": "setting.is_widget"
+            },
+            {
+                "match_all": true,
+                "key": "emmet_action_enabled.wrap_as_you_type"
+            }
+        ]
+    },
+    {
+        "keys": [
+            "super+shift+forward_slash"
+        ],
+        "args": {
+            "action": "toggle_comment"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "operand": "source.css, source.less, source.scss, source.postcss, text.xml, text.html - source",
+                "operator": "equal",
+                "match_all": true,
+                "key": "selector"
+            },
+            {
+                "match_all": true,
+                "key": "emmet_action_enabled.toggle_comment"
+            }
+        ]
+    },
+    {
+        "keys": [
+            "super+,"
+        ],
+        "args": {
+            "action": "balance_outward"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.balance_outward"
+            }
+        ]
+    },
+    {
+        "keys": [
+            "super+shift+,"
+        ],
+        "args": {
+            "action": "matching_pair"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.matching_pair"
+            }
+        ]
+    },
+    { "keys": ["super+k", "super+a"], "command": "sublime_linter_panel_toggle" },
+    { "keys": ["super+ctrl+a"], "command": "alignment" },
+
+]

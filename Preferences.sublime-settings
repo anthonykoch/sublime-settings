@@ -21,15 +21,14 @@
 		"node_modules",
 		"venv"
 	],
-	"font_size": 10,
+	"font_size": 12,
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"JavaScript Enhancements",
 		"Ruby Slim",
-		"SublimeLinter Inline Errors",
-		"Tern",
+		"SublimeLinter-contrib-sass-lint",
 		"tern_for_sublime",
-		"TernJS",
 		"Vintage"
 	],
 	"line_padding_bottom": 1.5,
@@ -39,9 +38,10 @@
 	"predawn_findreplace_small": true,
 	"predawn_quick_panel_small": true,
 	"predawn_tabs_medium": true,
+	"scroll_past_end": true,
 	"show_definitions": false,
-	"show_errors_inline": false,
-	"tab_size": 4,
+	"show_errors_inline": true,
+	"tab_size": 2,
 	"theme": "predawn-DEV.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,

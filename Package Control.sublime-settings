@@ -3,6 +3,10 @@
 	"in_process_packages":
 	[
 	],
+	"install_prereleases":
+	[
+		"SublimeLinter"
+	],
 	"installed_packages":
 	[
 		"Alignment",
@@ -18,10 +22,12 @@
 		"Handlebars",
 		"HTML-CSS-JS Prettify",
 		"Jade",
+		"JavaScript Enhancements",
 		"JsPrettier",
 		"Laravel Blade Highlighter",
 		"Markdown Extended",
 		"Monokai Extended",
+		"Nunjucks Syntax",
 		"Package Control",
 		"PackageDev",
 		"PackageResourceViewer",
@@ -33,11 +39,12 @@
 		"SideBarEnhancements",
 		"Stylus",
 		"SublimeLinter",
-		"SublimeLinter Inline Errors",
-		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-sass-lint",
-		"TernJS",
+		"SublimeLinter-eslint",
+		"TerminalView",
+		"tern_for_sublime",
 		"Tomorrow Color Schemes",
-		"Vue Syntax Highlight"
+		"UnitTesting",
+		"Vuejs Complete Package"
 	]
 }
